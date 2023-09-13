@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.17;
 
-import "../interfaces/IPreInteraction.sol";
-import "../interfaces/IPostInteraction.sol";
-import "../interfaces/ITakerInteraction.sol";
+import "../src/interfaces/IPreInteraction.sol";
+import "../src/interfaces/IPostInteraction.sol";
+import "../src/interfaces/ITakerInteraction.sol";
 
 contract InteractionMock is IPreInteraction, IPostInteraction, ITakerInteraction {
     error InvalidExtraDataLength();

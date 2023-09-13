@@ -1,4 +1,4 @@
 forge-std/=lib/forge-std/src/
 @openzeppelin/=lib/openzeppelin-contracts/
-@1inch/=lib/limit-order-protocol/
 @chainlink/=lib/chainlink/
+@1inch/solidity-utils=lib/solidity-utils
